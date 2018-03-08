@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CRYSTAL COLLECTOR GAME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
+    
+</head>
+<body>
+
+<div class="container">
+
+    <!--Beginning of header -->
+    <h1 class="col-lg-8">CRYSTALS COLLECTOR!</h1>
+    <!-- End of header -->
+
+    <!-- Beginning of instructions -->
+    <div class="instructions col-lg-8">
+        <p> By the time the game starts, a random number is given.</p>
+        <p> The four crystals below add a specific amount of points to the total score when they are clicked on.</p>
+        <p> To win the game, your total score must match the random number that has been selected. If your total score exceeds the random number, you lose and the game is over.</p>
+        <p> The value of each crystal is hidden until you click on it and it changes every time a new game starts.</p>
+    </div>
+    <!-- End of instructions -->
+
+    <!-- Beginning of random number selected -->
+    <div class="number col-lg-4">
+        <h2>Your number is: <span id="selectNum"></span></h2>
+
+    </div>
+    <!-- End of random number selected -->
+
+    <!-- Beginning of wins vs losses -->
+    <div class="winVsLoss col-lg-3">
+        <h2>Wins: <span id="winNum">0</span></h2>
+        <br>
+        <h2>Losses: <span id="lossNum">0</span></h2>
+    </div>
+    <!-- End of wins vs losses --> 
+
+    <!-- Beginning of crystal buttons -->
+    <div class="crystalButtons col-lg-12">
+        <button id="crystal1"><img src="assets\images\crystal1.png"></button>
+        <button id="crystal2"><img src="assets\images\crystal2.png"></button>
+        <button id="crystal3"><img src="assets\images\crystal3.png"></button> 
+        <button id="crystal4"><img src="assets\images\crystal4.png"></button>
+    </div>
+    <!-- End of crystal buttons -->
+
+    <!-- Beginning of score section -->
+    <div class="score col-lg-8">
+        <h2>Your total score is:</h2>
+    </div>
+
+    <div class="scoreKeep col-lg-8">
+        <h3><span id="keptScore">0</span></h3>
+    </div>
+    <!-- End of score section -->
+
+
+</div>
+        
+    
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>

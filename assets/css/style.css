@@ -1,0 +1,85 @@
+body {
+    background-image: url(spiration-dark.png);
+    width: 100%;
+    height: 100%;
+    align-content: center;
+}
+
+.container {
+    float: left;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    background-color: orangered;
+    padding: 30px;
+    float: left;
+    margin: 20px;
+    align-content: center;
+}
+
+.instructions {
+    float: left;
+    padding: 20px;
+    background-color: tan;
+    margin: 20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    color: green;
+    margin: 20px;
+}
+
+.number {
+    background-color: rgb(74, 243, 74);
+    float: left;
+    margin: 20px;
+    padding: 40px;
+
+}
+
+.winVsLoss {
+    background-color: rgb(0, 217, 255);
+    float: left;
+    margin: 20px;
+    padding: 20px;
+}
+
+h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.crystalButtons {
+    float: left;
+    margin: 5px;
+}
+
+.score {
+    float: left;
+    background-color: teal;
+    margin: 20px;
+    padding: 20px;
+}
+
+.scoreKeep {
+    float: left;
+    background-color: teal;
+    margin: 20px;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
